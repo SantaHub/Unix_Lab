@@ -1,0 +1,21 @@
+ 1946  ls -la
+ 1947  ls /var
+ 1948  mkdir dir dir1
+ 1949  mkdir .austin
+ 1950  cd dir
+ 1951  cp /etc/passwd ./sample.txt
+ 1952  cd ~
+ 1953  pwd
+ 1954  grep Grid test.txt | cut -f 1
+ 1955  cat test.txt|cut -f 1,2
+ 1956  grep -v '^$' test.txt 
+ 1959  mv dir/sample.txt dir1/
+ 1960  cd dir1
+ 1961  ls
+ 1962  mv sample.txt new.txt
+ 1963  ls
+ 1964  cal dec 2020
+ 1966  rmdir ../dir
+ 1967  tail -3 new.txt 
+ 1968  history 
+ 1969  history > today.txt
